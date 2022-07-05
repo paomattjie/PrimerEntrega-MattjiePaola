@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.container__content{
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100vw;
+    background-color: grey;
+}
+
+.container__content__title{
+    height: 20vw;
+    font-family: 'Gentium Book Plus', serif;
+    color: white;
+}
+
+.container__content__listBurgers{
+    display: flex;
+    flex-flow: row;
+    min-width: 100vw;
+    align-content: center;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.container__content__burgers{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 100px;
+    width: 100px;
+    min-height: 200px;
+    list-style: none;
+    background-color: grey;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 02px #000;
+}
+
+.container__content__burgers--image{
+    margin-top: -50px;
+    max-width: 250px;
+    max-height: 150px;
+}
+
+.container__content__burgers--nombre .container__content__burgers--precio{
+color: white;
+}
+
+.container__content__burgers--nombre{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 01.4rem;
+}
+
+.container__content__burgers--precio{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 01.4rem;
+}
+
+.container__footer{
+    font-family: 'Playfair Display', serif;
+    color:white;
+    font-size: 0.8rem;
+}
